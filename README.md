@@ -1,6 +1,7 @@
 # WP Side-load Menu
 
-### Adds a push menu to WordPress. Also removes touch-device 300ms js latency.
+### Adds a push menu to WordPress.
+#### Also removes touch-device 300ms tap latency.
 
 - Minimal styles. 140 of the 201 lines of CSS are largely arbitrary. Gut or change what you don't want!
 - No options pages. Zip. Zero.
@@ -9,7 +10,7 @@
 - Removes 300ms tap latency on touch-enabled devices via touche.js (http://benhowdle.im/touche/).
 - Requires jQuery.
 
-#### How to use this plugin:
+##### How to use this plugin:
 
 - Install and activate.
 
