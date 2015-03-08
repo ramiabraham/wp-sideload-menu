@@ -5,13 +5,17 @@
 * Description: This plugin adds a sideload menu to WordPress
 * Version: 1.0
 * Author: ramiabraham
+* Contributors: ramiabraham
 * Author URI: https://ramiabraham.com
 * License: GPL
 */
 
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) exit;
 
 /**
- * ra_wp_side_load_menu_enqueue_js function.
+ * Enqueue sideload push menu css and js, as well
+ * as libary to remove touch-device latency
  *
  * @access public
  * @return void
