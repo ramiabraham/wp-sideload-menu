@@ -2,7 +2,7 @@
 /*
 * Plugin Name: WP Sideload Menu
 * Plugin URI: https://ramiabraham.com
-* Description: This plugin adds a sideload menu to WordPress
+* Description: This plugin adds an oft-requested side-load menu to WordPress. Minimal styles.
 * Version: 1.0
 * Author: ramiabraham
 * Contributors: ramiabraham
