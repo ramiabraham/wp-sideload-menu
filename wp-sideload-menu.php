@@ -80,7 +80,7 @@ function ra_wp_side_load_menu() {
 			'after'           => '',
 			'link_before'     => '',
 			'link_after'      => '',
-			'items_wrap'      => '<button class="mobile-nav-trigger">&larr; Close</button><ul id="%1$s" class="%2$s">%3$s</ul>',
+			'items_wrap'      => '<button class="mobile-nav-trigger">&larr;' . __('Close') . '</button><ul id="%1$s" class="%2$s">%3$s</ul>',
 			'depth'           => 0,
 			'walker'          => ''
 		);
@@ -111,7 +111,7 @@ add_action( 'get_header', 'ra_wp_side_load_menu', 99 );
  */
 function ra_wp_side_load_menu_trigger() {
 
-	$mobile_nav_trigger = '<div class="mobile-nav-trigger toggle-push-left">MENU</div>';
+	$mobile_nav_trigger = '<div class="mobile-nav-trigger toggle-push-left">' . __('MENU') .  '</div>';
 
 	echo $mobile_nav_trigger;
 
