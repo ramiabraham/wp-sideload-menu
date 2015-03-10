@@ -58,7 +58,7 @@ add_action( 'wp_enqueue_scripts', 'ra_wp_side_load_menu_enqueue_js' );
 /**
  * The mobile nav
  *
- * Create a WordPress menu called 'mobile',
+ * Checks for a WordPress menu called 'mobile', then falls back to wp_list_pages per wp_nav_menu args, adjust as needed.
  * or change the 'menu' arg below to whatever menu you'd like to use
  *
  * @author ramiabraham
