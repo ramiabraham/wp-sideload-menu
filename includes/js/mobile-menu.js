@@ -45,7 +45,6 @@
 * on mobile devices.
 *
 * This won't do anything on non-touch devices
-* @author ramiabraham
 */
 
 if ( Touche !== null && typeof handleClicks !== 'undefined' ) {
@@ -56,7 +55,6 @@ Touche(document.querySelector( '.mobile-nav-trigger' )).on( 'click', handleClick
 
 /**
 * The primary mobile nav
-* @author ramiabraham
 */
 	var body = document.body,
 		mask = $("<div class='mobile-nav-mask'></div>"),
